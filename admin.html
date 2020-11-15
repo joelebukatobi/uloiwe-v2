@@ -4,7 +4,6 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <link rel="stylesheet" href="css/style.css" />
-  <link rel="stylesheet" href="js/app.js" />
   <link rel="shortcut icon" href="images/logo-white.svg" type="image/x-icon">
   <title>uloiwe</title>
 </head>
@@ -32,10 +31,10 @@
     <nav class="navbar__nav">
       <ul class="navbar__nav__list">
        <li class="navbar__nav__list__item">
-        <a class="navbar__nav__list__item__link" href="#">Products</a>
+        <a class="navbar__nav__list__item__link" href="admin.html">Products</a>
       </li>
       <li class="navbar__nav__list__item">
-       <a class="navbar__nav__list__item__link" href="#">Add Product</a>
+       <a class="navbar__nav__list__item__link" href="add-product.html">Add Product</a>
      </li>
         <li class="navbar__nav__list__item">
           <a class="navbar__nav__list__item__link" href="#">
@@ -49,148 +48,47 @@
     </nav>
   </div>
     <!-- Books -->
-  <div class="books">
+  <div class="admin">
    <p class="badge paragraph">Product List</p>
-   <div class="books__top">
-     <p class="paragraph">Number of available products | 10</p>
+   <div class="admin__top">
+     <p class="paragraph">Number of available products | 
+      <span id="noProducts"></span>
+     </p>
    </div>
-   <div class="books__row">
-     <div class="books__row__card">
-       <img class="books__row__card__image" src="images/book-1.png" alt="">
-       <h5 class="heading-5">Amara The Brave</h5>
-       <h5 class="heading-5">Matt Zhang</h5>
-       <div class="books__row__card__icon">
-         <svg>
-           <use xlink:href="images/sprite.svg#star"/>
-         </svg>
-         <svg>
-           <use xlink:href="images/sprite.svg#star"/>
-         </svg>
-         <svg>
-           <use xlink:href="images/sprite.svg#star"/>
-         </svg>
-         <svg>
-           <use xlink:href="images/sprite.svg#star"/>
-         </svg>
-         <svg>
-           <use xlink:href="images/sprite.svg#star"/>
-         </svg>
-       </div>
-       <h5 class="heading-5">$1.99</h5>
-       <button class="btn books__row__card__btn">
-         Edit Product
-       </button>
-     </div>
-     <div class="books__row__card">
-       <img class="books__row__card__image" src="images/book-2.png" alt="">
-       <h5 class="heading-5">The Walk To Freedom</h5>
-       <h5 class="heading-5">Murad Naser</h5>
-       <div class="books__row__card__icon">
-         <svg>
-           <use xlink:href="images/sprite.svg#star"/>
-         </svg>
-         <svg>
-           <use xlink:href="images/sprite.svg#star"/>
-         </svg>
-         <svg>
-           <use xlink:href="images/sprite.svg#star"/>
-         </svg>
-         <svg>
-           <use xlink:href="images/sprite.svg#star"/>
-         </svg>
-         <svg>
-           <use xlink:href="images/sprite.svg#star"/>
-         </svg>
-       </div>
-       <h5 class="heading-5">$1.99</h5>
-       <button class="btn books__row__card__btn">
-         Edit Product
-       </button>
-     </div>
-     <div class="books__row__card">
-       <img class="books__row__card__image" src="images/book-3.png" alt="">
-       <h5 class="heading-5">Rosie Williams: Diary</h5>
-       <h5 class="heading-5">Hannah Morales</h5>
-       <div class="books__row__card__icon">
-         <svg>
-           <use xlink:href="images/sprite.svg#star"/>
-         </svg>
-         <svg>
-           <use xlink:href="images/sprite.svg#star"/>
-         </svg>
-         <svg>
-           <use xlink:href="images/sprite.svg#star"/>
-         </svg>
-         <svg>
-           <use xlink:href="images/sprite.svg#star"/>
-         </svg>
-         <svg>
-           <use xlink:href="images/sprite.svg#star"/>
-         </svg>
-       </div>
-       <h5 class="heading-5">$1.99</h5>
-       <button class="btn books__row__card__btn">
-         Edit Product
-       </button>
-     </div>
-     <div class="books__row__card">
-       <img class="books__row__card__image" src="images/book-4.png" alt="">
-       <h5 class="heading-5">Living With 50 Things</h5>
-       <h5 class="heading-5">Miyaki Eze</h5>
-       <div class="books__row__card__icon">
-         <svg>
-           <use xlink:href="images/sprite.svg#star"/>
-         </svg>
-         <svg>
-           <use xlink:href="images/sprite.svg#star"/>
-         </svg>
-         <svg>
-           <use xlink:href="images/sprite.svg#star"/>
-         </svg>
-         <svg>
-           <use xlink:href="images/sprite.svg#star"/>
-         </svg>
-         <svg>
-           <use xlink:href="images/sprite.svg#star"/>
-         </svg>
-       </div>
-       <h5 class="heading-5">$1.99</h5>
-       <button class="btn books__row__card__btn">
-         Edit Product
-       </button>
-     </div>
-     <div class="books__row__card">
-       <img class="books__row__card__image" src="images/book-5.png" alt="">
-       <h5 class="heading-5">The Alliance of Misfits</h5>
-       <h5 class="heading-5">Samira Hadid</h5>
-       <div class="books__row__card__icon">
-         <svg>
-           <use xlink:href="images/sprite.svg#star"/>
-         </svg>
-         <svg>
-           <use xlink:href="images/sprite.svg#star"/>
-         </svg>
-         <svg>
-           <use xlink:href="images/sprite.svg#star"/>
-         </svg>
-         <svg>
-           <use xlink:href="images/sprite.svg#star"/>
-         </svg>
-         <svg>
-           <use xlink:href="images/sprite.svg#star"/>
-         </svg>
-       </div>
-       <h5 class="heading-5">$1.99</h5>
-       <button class="btn books__row__card__btn">
-         Edit Product
-       </button>
-     </div>
-   </div>
+   <div class="admin__row" id="productRow"></div>
   </div>
- </div>
 
- 
- <hr class="separator">
+  <div class="admin">
+    <p class="badge paragraph">eBooks</p>
+    <div class="admin__top">
+      <p class="paragraph">Number of available products | 
+        <span id="noEbooks"></span>
+      </p>
+    </div>
+    <div class="admin__row" id="productEbookRow"></div>
+   </div>
+
+   <div class="admin">
+    <p class="badge paragraph">Audiobooks</p>
+    <div class="admin__top">
+      <p class="paragraph">Number of available products | 
+        <span id="noAudiobook"></span>
+      </p>
+    </div>
+    <div class="admin__row" id="productAudiobookRow"></div>
+    <div class="admin__bottom">
+     <h4 class="paragraph">1</h4>
+     <h4 class="paragraph">2</h4>
+     <h4 class="paragraph">3</h4>
+     <h4 class="paragraph">4</h4>
+     <h4 class="paragraph">5</h4>
+     <h4 class="paragraph">6</h4>
+    </div>
+   </div>
+ </div>
+ <!--
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo, vero, quisquam quo molestias aliquid commodi aliquam voluptatem quam saepe accusantium sequi dignissimos deserunt in tenetur dolorem qui! Velit, laborum optio! 
+  -->
   <!-- Footer -->
 
   <div class="footer">
@@ -220,4 +118,5 @@
  </div>
  </body>
  
+ <script type="application/javascript" src="js/admin.js"></script>
  </html>

@@ -1,0 +1,131 @@
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="shortcut icon" href="images/logo-white.svg" type="image/x-icon">
+  <title>uloiwe</title>
+</head>
+
+<body>
+  <!-- Navigation -->
+  <div class="navbar">
+    <div class="navbar__mobile">
+      <!-- Navbar Logo -->
+      <div class="navbar__mobile__logo">
+        <a class="navbar__mobile__logo__link" href="index.html" title="navbar">
+          <img class="navbar__mobile__logo__link__image" src="images/logo.svg" alt="" />
+        </a>
+      </div>
+ 
+      <!-- Navbar Menu -->
+      <div class="navbar__mobile__menu">
+        <div class="navbar__mobile__menu__bar"></div>
+        <div class="navbar__mobile__menu__bar"></div>
+        <div class="navbar__mobile__menu__bar"></div>
+      </div>
+    </div>
+ 
+    <!-- Navbar -->
+    <nav class="navbar__nav">
+      <ul class="navbar__nav__list">
+        <li class="navbar__nav__list__item">
+          <a class="navbar__nav__list__item__link" href="#">AudioBooks</a>
+        </li>
+        <li class="navbar__nav__list__item">
+          <a class="navbar__nav__list__item__link" href="#"> eBooks </a>
+        </li>
+        <li class="navbar__nav__list__item">
+          <a class="navbar__nav__list__item__link" href="#">
+            Apps & eReaders
+          </a>
+        </li>
+        <li class="navbar__nav__list__item">
+          <a class="navbar__nav__list__item__link" href="#">
+            <svg>
+              <use xlink:href="images/sprite.svg#heart"/>
+            </svg>
+          </a>
+        </li>
+        <li class="navbar__nav__list__item">
+          <a class="navbar__nav__list__item__link" href="login.html">
+            <svg>
+              <use xlink:href="images/sprite.svg#users"/>
+            </svg>
+          </a>
+        </li>
+        <li class="navbar__nav__list__item">
+          <a class="navbar__nav__list__item__link" href="#">
+            <svg>
+              <use xlink:href="images/sprite.svg#cart"/>
+            </svg>
+          </a>
+        </li>        
+      </ul>
+    </nav>
+   </div>
+    <!-- Books -->
+  <div class="product">
+   
+   <div class="product__add">
+    <p class="badge paragraph">Add New Product</p>
+    <div class="product__add__top">
+      <p class="paragraph">Please fill the form below to add a new product</p>
+    </div>
+    <form class="product__add__form" action="">
+     <input class="input" type="text" id="name" placeholder="Book Name">
+     <input class="input" type="text" id="author" placeholder="Author">
+     <input class="input" type="text" id="price" placeholder="Price ">
+     <input class="input" type="text" id="rating" placeholder="Rating">
+     <select class="select" name="category" id="category" placeholder="Please select the category">
+       
+      <option value="disabled selected">Select book category</option>
+      <option value="Audiobook">Audiobook</option>
+      <option value="eBooks">eBooks</option>
+    </select>
+    <textarea class="textarea" name="" id="description" cols="30" rows="6" placeholder="Description"></textarea>
+     <input class="input" type="file" id="book-cover" placeholder="Book Cover">
+     <button class="btn" type="button" id="addProduct">Submit</button>
+    </form>
+   </div>
+   <div class="product__bg">
+     <!-- <img class="product__bg__image" src="images/login-image.jpg" alt=""> -->
+   </div>
+  </div>
+ 
+  <hr class="separator">
+  <!-- Footer -->
+
+  <div class="footer">
+   <div class="footer__top">
+     <div class="footer__top__logo">
+       <img class="footer__top__logo__image" src="images/logo-white.svg" alt="">
+       
+     <h5 class="heading-5">&copy Copyright 2020</h5>
+     </div>
+
+   </div>
+   <hr class="separator">
+   <div class="footer__bottom">
+     <h5 class="heading-5">Designed and Developed by JetDev for Uloiwe</h5>
+     <div class="footer__bottom__icons">
+       <svg>
+         <use xlink:href="images/sm-icons.svg#facebook"/>
+       </svg>
+       <svg>
+         <use xlink:href="images/sm-icons.svg#twitter"/>
+       </svg>
+       <svg>
+         <use xlink:href="images/sm-icons.svg#instagram"/>
+       </svg>
+     </div>
+   </div>
+ </div>
+ </body>
+ 
+
+ <script src="js/jquery-min.js"></script>
+ <script type="application/javascript" src="js/addProduct.js"></script>
+
+ </html>

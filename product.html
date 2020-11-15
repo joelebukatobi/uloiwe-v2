@@ -1,0 +1,168 @@
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="shortcut icon" href="images/logo-white.svg" type="image/x-icon">
+  <title>uloiwe</title>
+</head>
+
+<body>
+  <!-- Navigation -->
+  <div class="navbar">
+    <div class="navbar__mobile">
+      <!-- Navbar Logo -->
+      <div class="navbar__mobile__logo">
+        <a class="navbar__mobile__logo__link" href="index.html" title="navbar">
+          <img class="navbar__mobile__logo__link__image" src="images/logo.svg" alt="" />
+        </a>
+      </div>
+
+      <!-- Navbar Menu -->
+      <div class="navbar__mobile__menu">
+        <div class="navbar__mobile__menu__bar"></div>
+        <div class="navbar__mobile__menu__bar"></div>
+        <div class="navbar__mobile__menu__bar"></div>
+      </div>
+    </div>
+
+    <!-- Navbar -->
+    <nav class="navbar__nav">
+      <ul class="navbar__nav__list">
+        <li class="navbar__nav__list__item">
+          <a class="navbar__nav__list__item__link" href="#">AudioBooks</a>
+        </li>
+        <li class="navbar__nav__list__item">
+          <a class="navbar__nav__list__item__link" href="#"> eBooks </a>
+        </li>
+        <li class="navbar__nav__list__item">
+          <a class="navbar__nav__list__item__link" href="#">
+            Apps & eReaders
+          </a>
+        </li>
+        <li class="navbar__nav__list__item">
+          <a class="navbar__nav__list__item__link" href="#">
+            <svg>
+              <use xlink:href="images/sprite.svg#heart"/>
+            </svg>
+          </a>
+        </li>
+        <li class="navbar__nav__list__item">
+          <a class="navbar__nav__list__item__link" href="login.html">
+            <svg>
+              <use xlink:href="images/sprite.svg#users"/>
+            </svg>
+          </a>
+        </li>
+        <li class="navbar__nav__list__item">
+          <a class="navbar__nav__list__item__link" href="#">
+            <svg>
+              <use xlink:href="images/sprite.svg#cart"/>
+            </svg>
+          </a>
+        </li>        
+      </ul>
+    </nav>
+  </div>
+
+ <!-- Featured -->
+ <div class="featured">
+  <div class="featured__badge">
+  <p class="badge paragraph">Featured Book</p>
+  </div>
+  <div class="featured__bg">
+    <img src="images/lamp.svg" alt="" class="featured__bg__image">
+  </div>
+  <div class="featured__row">
+    
+  <div class="featured__row__image">
+    <img class="featured__row__image__cover" src="images/book-3.png" alt="">
+  </div>
+  <div class="featured__row__text">
+    <h3 class="heading-3">From The Dairy of<br>Rosie Wilkins</h3>
+    <p class="paragraph">
+      The Life story of Rosie Wilkins the famed poet and broadway actor as writing by Hannah Morales. Rosie Williams started her career from a very young age which was properly documented. Having affected numerous lives thorugh out the span of of her illustious twenty five year carrer here in lies the biography of Rosie Wilkins.
+      Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eveniet repellendus esse labore atque expedita corrupti, at commodi magnam rem.
+    </p>
+    <h5 class="heading-4">Hannah Morales</h5>
+    <div class="featured__row__text__icon">
+      <svg>
+        <use xlink:href="images/sprite.svg#star"/>
+      </svg>
+      <svg>
+        <use xlink:href="images/sprite.svg#star"/>
+      </svg>
+      <svg>
+        <use xlink:href="images/sprite.svg#star"/>
+      </svg>
+      <svg>
+        <use xlink:href="images/sprite.svg#star"/>
+      </svg>
+      <svg>
+        <use xlink:href="images/sprite.svg#star"/>
+      </svg>
+    </div>
+    <button class="btn featured__text__btn">
+      Add To Cart
+    </button>
+  </div>
+  </div>
+</div>
+
+  <!-- Books -->
+  <div class="books">
+    <p class="badge paragraph">eBooks</p>
+    <div class="books__top">
+      <p class="paragraph">Trending Now in eBooks</p>
+      <p class="paragraph">View All</p>
+    </div>
+    <div class="books__row" id="usereBooks">
+    </div>
+  </div>
+
+  
+  <!-- Books -->
+  <div class="books">
+    <p class="badge paragraph">Audiobooks</p>
+    <div class="books__top">
+      <p class="paragraph">The latest and hottest books trending now in Audiobooks</p>
+      <p class="paragraph">View All</p>
+    </div>
+    <div class="books__row" id="userAudiobooks">
+    </div>
+  </div>
+
+ 
+
+  <!-- Footer -->
+
+  <div class="footer">
+    <div class="footer__top">
+      <div class="footer__top__logo">
+        <img class="footer__top__logo__image" src="images/logo-white.svg" alt="">
+        
+      <h5 class="heading-5">&copy Copyright 2020</h5>
+      </div>
+
+    </div>
+    <hr class="separator">
+    <div class="footer__bottom">
+      <h5 class="heading-5">Designed and Developed by JetDev for Uloiwe</h5>
+      <div class="footer__bottom__icons">
+        <svg>
+          <use xlink:href="images/sm-icons.svg#facebook"/>
+        </svg>
+        <svg>
+          <use xlink:href="images/sm-icons.svg#twitter"/>
+        </svg>
+        <svg>
+          <use xlink:href="images/sm-icons.svg#instagram"/>
+        </svg>
+      </div>
+    </div>
+  </div>
+</body>
+
+<script text="application/javascript" src="js/index.js"></script>
+</html>

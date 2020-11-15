@@ -43,8 +43,7 @@ input::placeholder {
   font-family: "Raleway", sans-serif; }
 
 textarea::placeholder {
-  font-family: "Raleway", sans-serif;
-  font-size: 1.6rem; }
+  font-family: "Raleway", sans-serif; }
 
 button:link,
 button:hover,
@@ -62,15 +61,14 @@ body {
 
 .navbar {
   background-color: #ffffff;
-  margin: 0;
-  max-width: 100%;
+  width: 100%;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   align-items: center;
   justify-content: space-between;
-  padding: 1.6rem 20rem;
-  position: relative; }
+  height: 10rem;
+  padding: 1.6rem 20rem; }
   .navbar__mobile__menu {
     display: inline-block; }
   .navbar__mobile__logo {
@@ -371,6 +369,28 @@ body {
       transform: scaleX(-1);
       fill: #309975; }
 
+.select {
+  height: 4.8rem;
+  width: 50rem;
+  border-radius: 0.5rem;
+  outline: none;
+  border: none;
+  padding: 0 1.6rem;
+  font-size: 1.6rem;
+  border: 0.2rem solid #454d66; }
+
+.textarea {
+  width: 50rem;
+  border-radius: 0.5rem;
+  outline: none;
+  border: none;
+  padding: 1.6rem 1.6rem;
+  font-size: 1.6rem;
+  border: 0.2rem solid #454d66;
+  font-family: "Raleway", sans-serif; }
+  .textarea::placeholder {
+    font-family: "Raleway", sans-serif; }
+
 .badge {
   display: inline-block;
   padding: 0.8rem 1.6rem;
@@ -448,7 +468,8 @@ body {
       color: #454d66; }
   .books__row {
     display: flex;
-    justify-content: space-between; }
+    justify-content: space-between;
+    margin-bottom: 2rem; }
     .books__row__card .heading-5 {
       margin-bottom: 0.8rem; }
     .books__row__card__image {
@@ -463,6 +484,13 @@ body {
         fill: #bf0000; }
     .books__row__card__btn {
       background-color: #454d66; }
+  .books .separator {
+    background-color: #309975; }
+  .books__bottom {
+    display: flex;
+    align-items: center; }
+    .books__bottom > * {
+      margin-right: 1.6rem; }
 
 .featured {
   display: flex;
@@ -506,3 +534,104 @@ body {
           fill: #bf0000; }
       .featured__row__text__btn {
         background-color: #309975; }
+
+.product {
+  padding: 5rem 20rem 5rem 20rem;
+  display: flex;
+  justify-content: space-between;
+  postion: relative; }
+  .product__add {
+    width: 50%;
+    margin-top: 3.2rem; }
+    .product__add__top {
+      margin-bottom: 2.4rem; }
+    .product__add__form {
+      display: flex;
+      flex-direction: column; }
+      .product__add__form > * {
+        margin-bottom: 2.4rem; }
+      .product__add__form .input {
+        border: 0.2rem solid #454d66; }
+      .product__add__form .btn {
+        width: 15rem; }
+      .product__add__form .selected option:first-of-type {
+        color: grey5; }
+  .product__bg {
+    position: absolute;
+    top: 8rem;
+    right: 5rem;
+    width: 50%;
+    height: 100%;
+    z-index: -1; }
+    .product__bg__image {
+      width: 100%;
+      height: 100%; }
+
+.login {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 20rem 10rem 20rem;
+  height: 100vh;
+  align-items: center; }
+  .login__form {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    margin-top: 5rem; }
+    .login__form > * {
+      margin-bottom: 3.2rem; }
+    .login__form .input {
+      border: 2px solid #454d66;
+      width: 40rem; }
+    .login__form .btn {
+      width: 15rem; }
+    .login__form .paragraph {
+      font-weight: 500;
+      color: #454d66; }
+      .login__form .paragraph .link {
+        color: #309975; }
+  .login__bg {
+    width: 60%; }
+    .login__bg__image {
+      width: 100%;
+      height: 100%; }
+
+.admin {
+  padding: 5rem 20rem; }
+  .admin__top {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 3.2rem; }
+    .admin__top .paragraph:nth-of-type(2) {
+      font-weight: 600;
+      color: #454d66; }
+  .admin__row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 100%;
+    margin-bottom: 2rem; }
+    .admin__row__card {
+      width: 25%;
+      margin-bottom: 6.4rem; }
+      .admin__row__card .heading-5 {
+        margin-bottom: 0.8rem; }
+      .admin__row__card__image {
+        height: 30rem;
+        margin-bottom: 1.6rem; }
+      .admin__row__card__icon {
+        display: flex;
+        margin-bottom: 0.8rem; }
+        .admin__row__card__icon svg {
+          height: 1.6rem;
+          width: 1.6rem;
+          fill: #bf0000; }
+      .admin__row__card__btn {
+        background-color: #454d66; }
+  .admin .separator {
+    background-color: #309975; }
+  .admin__bottom {
+    display: flex;
+    align-items: center; }
+    .admin__bottom > * {
+      margin-right: 1.6rem; }

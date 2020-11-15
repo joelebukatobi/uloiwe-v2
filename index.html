@@ -4,7 +4,6 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <link rel="stylesheet" href="css/style.css" />
-  <link rel="stylesheet" href="js/app.js" />
   <link rel="shortcut icon" href="images/logo-white.svg" type="image/x-icon">
   <title>uloiwe</title>
 </head>
@@ -50,7 +49,7 @@
           </a>
         </li>
         <li class="navbar__nav__list__item">
-          <a class="navbar__nav__list__item__link" href="#">
+          <a class="navbar__nav__list__item__link" href="login.html">
             <svg>
               <use xlink:href="images/sprite.svg#users"/>
             </svg>
@@ -99,137 +98,7 @@
       <p class="paragraph">Trending Now in eBooks</p>
       <p class="paragraph">View All</p>
     </div>
-    <div class="books__row">
-      <div class="books__row__card">
-        <img class="books__row__card__image" src="images/book-1.png" alt="">
-        <h5 class="heading-5">Amara The Brave</h5>
-        <h5 class="heading-5">Matt Zhang</h5>
-        <div class="books__row__card__icon">
-          <svg>
-            <use xlink:href="images/sprite.svg#star"/>
-          </svg>
-          <svg>
-            <use xlink:href="images/sprite.svg#star"/>
-          </svg>
-          <svg>
-            <use xlink:href="images/sprite.svg#star"/>
-          </svg>
-          <svg>
-            <use xlink:href="images/sprite.svg#star"/>
-          </svg>
-          <svg>
-            <use xlink:href="images/sprite.svg#star"/>
-          </svg>
-        </div>
-        <h5 class="heading-5">$1.99</h5>
-        <button class="btn books__row__card__btn">
-          Add to cart
-        </button>
-      </div>
-      <div class="books__row__card">
-        <img class="books__row__card__image" src="images/book-2.png" alt="">
-        <h5 class="heading-5">The Walk To Freedom</h5>
-        <h5 class="heading-5">Murad Naser</h5>
-        <div class="books__row__card__icon">
-          <svg>
-            <use xlink:href="images/sprite.svg#star"/>
-          </svg>
-          <svg>
-            <use xlink:href="images/sprite.svg#star"/>
-          </svg>
-          <svg>
-            <use xlink:href="images/sprite.svg#star"/>
-          </svg>
-          <svg>
-            <use xlink:href="images/sprite.svg#star"/>
-          </svg>
-          <svg>
-            <use xlink:href="images/sprite.svg#star"/>
-          </svg>
-        </div>
-        <h5 class="heading-5">$1.99</h5>
-        <button class="btn books__row__card__btn">
-          Add to cart
-        </button>
-      </div>
-      <div class="books__row__card">
-        <img class="books__row__card__image" src="images/book-3.png" alt="">
-        <h5 class="heading-5">Rosie Williams: Diary</h5>
-        <h5 class="heading-5">Rosie Williams</h5>
-        <div class="books__row__card__icon">
-          <svg>
-            <use xlink:href="images/sprite.svg#star"/>
-          </svg>
-          <svg>
-            <use xlink:href="images/sprite.svg#star"/>
-          </svg>
-          <svg>
-            <use xlink:href="images/sprite.svg#star"/>
-          </svg>
-          <svg>
-            <use xlink:href="images/sprite.svg#star"/>
-          </svg>
-          <svg>
-            <use xlink:href="images/sprite.svg#star"/>
-          </svg>
-        </div>
-        <h5 class="heading-5">$1.99</h5>
-        <button class="btn books__row__card__btn">
-          Add to cart
-        </button>
-      </div>
-      <div class="books__row__card">
-        <img class="books__row__card__image" src="images/book-4.png" alt="">
-        <h5 class="heading-5">Living With 50 Things</h5>
-        <h5 class="heading-5">Miyaki Eze</h5>
-        <div class="books__row__card__icon">
-          <svg>
-            <use xlink:href="images/sprite.svg#star"/>
-          </svg>
-          <svg>
-            <use xlink:href="images/sprite.svg#star"/>
-          </svg>
-          <svg>
-            <use xlink:href="images/sprite.svg#star"/>
-          </svg>
-          <svg>
-            <use xlink:href="images/sprite.svg#star"/>
-          </svg>
-          <svg>
-            <use xlink:href="images/sprite.svg#star"/>
-          </svg>
-        </div>
-        <h5 class="heading-5">$1.99</h5>
-        <button class="btn books__row__card__btn">
-          Add to cart
-        </button>
-      </div>
-      <div class="books__row__card">
-        <img class="books__row__card__image" src="images/book-5.png" alt="">
-        <h5 class="heading-5">The Alliance of Misfits</h5>
-        <h5 class="heading-5">Samira Hadid</h5>
-        <div class="books__row__card__icon">
-          <svg>
-            <use xlink:href="images/sprite.svg#star"/>
-          </svg>
-          <svg>
-            <use xlink:href="images/sprite.svg#star"/>
-          </svg>
-          <svg>
-            <use xlink:href="images/sprite.svg#star"/>
-          </svg>
-          <svg>
-            <use xlink:href="images/sprite.svg#star"/>
-          </svg>
-          <svg>
-            <use xlink:href="images/sprite.svg#star"/>
-          </svg>
-        </div>
-        <h5 class="heading-5">$1.99</h5>
-        <button class="btn books__row__card__btn">
-          Add to cart
-        </button>
-      </div>
+    <div class="books__row" id="usereBooks">
     </div>
   </div>
 
@@ -264,278 +133,7 @@
       <p class="paragraph">The latest and hottest books trending now in Audiobooks</p>
       <p class="paragraph">View All</p>
     </div>
-    <div class="books__row">
-      <div class="books__row__card">
-        <img class="books__row__card__image" src="images/book-1.png" alt="">
-        <h5 class="heading-5">Amara The Brave</h5>
-        <h5 class="heading-5">Matt Zhang</h5>
-        <div class="books__row__card__icon">
-          <svg>
-            <use xlink:href="images/sprite.svg#star"/>
-          </svg>
-          <svg>
-            <use xlink:href="images/sprite.svg#star"/>
-          </svg>
-          <svg>
-            <use xlink:href="images/sprite.svg#star"/>
-          </svg>
-          <svg>
-            <use xlink:href="images/sprite.svg#star"/>
-          </svg>
-          <svg>
-            <use xlink:href="images/sprite.svg#star"/>
-          </svg>
-        </div>
-        <h5 class="heading-5">$1.99</h5>
-        <button class="btn books__row__card__btn">
-          Add to cart
-        </button>
-      </div>
-      <div class="books__row__card">
-        <img class="books__row__card__image" src="images/book-2.png" alt="">
-        <h5 class="heading-5">The Walk To Freedom</h5>
-        <h5 class="heading-5">Murad Naser</h5>
-        <div class="books__row__card__icon">
-          <svg>
-            <use xlink:href="images/sprite.svg#star"/>
-          </svg>
-          <svg>
-            <use xlink:href="images/sprite.svg#star"/>
-          </svg>
-          <svg>
-            <use xlink:href="images/sprite.svg#star"/>
-          </svg>
-          <svg>
-            <use xlink:href="images/sprite.svg#star"/>
-          </svg>
-          <svg>
-            <use xlink:href="images/sprite.svg#star"/>
-          </svg>
-        </div>
-        <h5 class="heading-5">$1.99</h5>
-        <button class="btn books__row__card__btn">
-          Add to cart
-        </button>
-      </div>
-      <div class="books__row__card">
-        <img class="books__row__card__image" src="images/book-6.png" alt="">
-        <h5 class="heading-5">Futurama</h5>
-        <h5 class="heading-5">Michael Douglas Jr.</h5>
-        <div class="books__row__card__icon">
-          <svg>
-            <use xlink:href="images/sprite.svg#star"/>
-          </svg>
-          <svg>
-            <use xlink:href="images/sprite.svg#star"/>
-          </svg>
-          <svg>
-            <use xlink:href="images/sprite.svg#star"/>
-          </svg>
-          <svg>
-            <use xlink:href="images/sprite.svg#star"/>
-          </svg>
-          <svg>
-            <use xlink:href="images/sprite.svg#star"/>
-          </svg>
-        </div>
-        <h5 class="heading-5">$1.99</h5>
-        <button class="btn books__row__card__btn">
-          Add to cart
-        </button>
-      </div>
-      <div class="books__row__card">
-        <img class="books__row__card__image" src="images/book-7.png" alt="">
-        <h5 class="heading-5">Everything You Never Had</h5>
-        <h5 class="heading-5">Bailey Dupont</h5>
-        <div class="books__row__card__icon">
-          <svg>
-            <use xlink:href="images/sprite.svg#star"/>
-          </svg>
-          <svg>
-            <use xlink:href="images/sprite.svg#star"/>
-          </svg>
-          <svg>
-            <use xlink:href="images/sprite.svg#star"/>
-          </svg>
-          <svg>
-            <use xlink:href="images/sprite.svg#star"/>
-          </svg>
-          <svg>
-            <use xlink:href="images/sprite.svg#star"/>
-          </svg>
-        </div>
-        <h5 class="heading-5">$1.99</h5>
-        <button class="btn books__row__card__btn">
-          Add to cart
-        </button>
-      </div>
-      <div class="books__row__card">
-        <img class="books__row__card__image" src="images/book-5.png" alt="">
-        <h5 class="heading-5">The Alliance of Misfits</h5>
-        <h5 class="heading-5">Samira Hadid</h5>
-        <div class="books__row__card__icon">
-          <svg>
-            <use xlink:href="images/sprite.svg#star"/>
-          </svg>
-          <svg>
-            <use xlink:href="images/sprite.svg#star"/>
-          </svg>
-          <svg>
-            <use xlink:href="images/sprite.svg#star"/>
-          </svg>
-          <svg>
-            <use xlink:href="images/sprite.svg#star"/>
-          </svg>
-          <svg>
-            <use xlink:href="images/sprite.svg#star"/>
-          </svg>
-        </div>
-        <h5 class="heading-5">$1.99</h5>
-        <button class="btn books__row__card__btn">
-          Add to cart
-        </button>
-      </div>
-    </div>
-  </div>
-
-  <!-- Books -->
-  <div class="books">
-    <p class="badge paragraph">Audiobooks</p>
-    <div class="books__top">
-      <p class="paragraph">The latest and hottest books trending now in Audiobooks</p>
-      <p class="paragraph">View All</p>
-    </div>
-    <div class="books__row">
-      <div class="books__row__card">
-        <img class="books__row__card__image" src="images/book-1.png" alt="">
-        <h5 class="heading-5">Amara The Brave</h5>
-        <h5 class="heading-5">Matt Zhang</h5>
-        <div class="books__row__card__icon">
-          <svg>
-            <use xlink:href="images/sprite.svg#star"/>
-          </svg>
-          <svg>
-            <use xlink:href="images/sprite.svg#star"/>
-          </svg>
-          <svg>
-            <use xlink:href="images/sprite.svg#star"/>
-          </svg>
-          <svg>
-            <use xlink:href="images/sprite.svg#star"/>
-          </svg>
-          <svg>
-            <use xlink:href="images/sprite.svg#star"/>
-          </svg>
-        </div>
-        <h5 class="heading-5">$1.99</h5>
-        <button class="btn books__row__card__btn">
-          Add to cart
-        </button>
-      </div>
-      <div class="books__row__card">
-        <img class="books__row__card__image" src="images/book-2.png" alt="">
-        <h5 class="heading-5">The Walk To Freedom</h5>
-        <h5 class="heading-5">Murad Naser</h5>
-        <div class="books__row__card__icon">
-          <svg>
-            <use xlink:href="images/sprite.svg#star"/>
-          </svg>
-          <svg>
-            <use xlink:href="images/sprite.svg#star"/>
-          </svg>
-          <svg>
-            <use xlink:href="images/sprite.svg#star"/>
-          </svg>
-          <svg>
-            <use xlink:href="images/sprite.svg#star"/>
-          </svg>
-          <svg>
-            <use xlink:href="images/sprite.svg#star"/>
-          </svg>
-        </div>
-        <h5 class="heading-5">$1.99</h5>
-        <button class="btn books__row__card__btn">
-          Add to cart
-        </button>
-      </div>
-      <div class="books__row__card">
-        <img class="books__row__card__image" src="images/book-3.png" alt="">
-        <h5 class="heading-5">Rosie Williams: Diary</h5>
-        <h5 class="heading-5">Hannah Morales</h5>
-        <div class="books__row__card__icon">
-          <svg>
-            <use xlink:href="images/sprite.svg#star"/>
-          </svg>
-          <svg>
-            <use xlink:href="images/sprite.svg#star"/>
-          </svg>
-          <svg>
-            <use xlink:href="images/sprite.svg#star"/>
-          </svg>
-          <svg>
-            <use xlink:href="images/sprite.svg#star"/>
-          </svg>
-          <svg>
-            <use xlink:href="images/sprite.svg#star"/>
-          </svg>
-        </div>
-        <h5 class="heading-5">$1.99</h5>
-        <button class="btn books__row__card__btn">
-          Add to cart
-        </button>
-      </div>
-      <div class="books__row__card">
-        <img class="books__row__card__image" src="images/book-4.png" alt="">
-        <h5 class="heading-5">Living With 50 Things</h5>
-        <h5 class="heading-5">Miyaki Eze</h5>
-        <div class="books__row__card__icon">
-          <svg>
-            <use xlink:href="images/sprite.svg#star"/>
-          </svg>
-          <svg>
-            <use xlink:href="images/sprite.svg#star"/>
-          </svg>
-          <svg>
-            <use xlink:href="images/sprite.svg#star"/>
-          </svg>
-          <svg>
-            <use xlink:href="images/sprite.svg#star"/>
-          </svg>
-          <svg>
-            <use xlink:href="images/sprite.svg#star"/>
-          </svg>
-        </div>
-        <h5 class="heading-5">$1.99</h5>
-        <button class="btn books__row__card__btn">
-          Add to cart
-        </button>
-      </div>
-      <div class="books__row__card">
-        <img class="books__row__card__image" src="images/book-5.png" alt="">
-        <h5 class="heading-5">The Alliance of Misfits</h5>
-        <h5 class="heading-5">Samira Hadid</h5>
-        <div class="books__row__card__icon">
-          <svg>
-            <use xlink:href="images/sprite.svg#star"/>
-          </svg>
-          <svg>
-            <use xlink:href="images/sprite.svg#star"/>
-          </svg>
-          <svg>
-            <use xlink:href="images/sprite.svg#star"/>
-          </svg>
-          <svg>
-            <use xlink:href="images/sprite.svg#star"/>
-          </svg>
-          <svg>
-            <use xlink:href="images/sprite.svg#star"/>
-          </svg>
-        </div>
-        <h5 class="heading-5">$1.99</h5>
-        <button class="btn books__row__card__btn">
-          Add to cart
-        </button>
-      </div>
+    <div class="books__row" id="userAudiobooks">
     </div>
   </div>
 
@@ -545,41 +143,40 @@
     <p class="badge paragraph">Featured Book</p>
     </div>
     <div class="featured__bg">
-      <img src="images/lamp.svg" alt="" class="featured__bg__image">
+      <img src="images/lamp.svg" alt="" class="featured__bg__image" id="">
     </div>
     <div class="featured__row">
-      
-    <div class="featured__row__image">
-      <img class="featured__row__image__cover" src="images/book-3.png" alt="">
-    </div>
-    <div class="featured__row__text">
-      <h3 class="heading-3">From The Dairy of<br>Rosie Wilkins</h3>
-      <p class="paragraph">
-        The Life story of Rosie Wilkins the famed poet and broadway actor as writing by Hannah Morales. Rosie Williams started her career from a very young age which was properly documented. Having affected numerous lives thorugh out the span of of her illustious twenty five year carrer here in lies the biography of Rosie Wilkins.
-        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eveniet repellendus esse labore atque expedita corrupti, at commodi magnam rem.
-      </p>
-      <h5 class="heading-4">Hannah Morales</h5>
-      <div class="featured__row__text__icon">
-        <svg>
-          <use xlink:href="images/sprite.svg#star"/>
-        </svg>
-        <svg>
-          <use xlink:href="images/sprite.svg#star"/>
-        </svg>
-        <svg>
-          <use xlink:href="images/sprite.svg#star"/>
-        </svg>
-        <svg>
-          <use xlink:href="images/sprite.svg#star"/>
-        </svg>
-        <svg>
-          <use xlink:href="images/sprite.svg#star"/>
-        </svg>
+      <div class="featured__row__image">
+        <img class="featured__row__image__cover" src="images/book-3.png" alt="">
       </div>
-      <button class="btn featured__text__btn">
-        Learn More
-      </button>
-    </div>
+      <div class="featured__row__text">
+        <h3 class="heading-3">From The Dairy of<br>Rosie Wilkins</h3>
+        <p class="paragraph">
+          The Life story of Rosie Wilkins the famed poet and broadway actor as writing by Hannah Morales. Rosie Williams started her career from a very young age which was properly documented. Having affected numerous lives thorugh out the span of of her illustious twenty five year carrer here in lies the biography of Rosie Wilkins.
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eveniet repellendus esse labore atque expedita corrupti, at commodi magnam rem.
+        </p>
+        <h5 class="heading-4">Hannah Morales</h5>
+        <div class="featured__row__text__icon">
+          <svg>
+            <use xlink:href="images/sprite.svg#star"/>
+          </svg>
+          <svg>
+            <use xlink:href="images/sprite.svg#star"/>
+          </svg>
+          <svg>
+            <use xlink:href="images/sprite.svg#star"/>
+          </svg>
+          <svg>
+            <use xlink:href="images/sprite.svg#star"/>
+          </svg>
+          <svg>
+            <use xlink:href="images/sprite.svg#star"/>
+          </svg>
+        </div>
+        <button class="btn featured__text__btn">
+          Learn More
+        </button>
+      </div>
     </div>
   </div>
 
@@ -612,4 +209,5 @@
   </div>
 </body>
 
+<script text="application/javascript" src="js/index.js"></script>
 </html>
